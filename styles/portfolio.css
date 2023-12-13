@@ -45,7 +45,7 @@ hero h2 {
   font-family: var(--heading-font-family);
   font-weight: normal;
   font-size: 24px;
-  line-height: 2px;
+  line-height: 1.5px;
 }
 
 .btn-branding {
@@ -69,6 +69,16 @@ hero h2 {
   padding: 120px 60px;
 }
 @media (max-width: 960px) {
+  h1 {
+    font-size: 44px;
+    line-height: 2px;
+  }
+  h2 {
+    font-size: 44px;
+  }
+  .hero {
+    padding: 80px 20px;
+  }
   .project-description {
     padding: 0;
     text-align: center;
